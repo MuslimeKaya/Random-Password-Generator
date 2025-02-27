@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <br><br>
+    <h1>Random Password Generator:</h1>
+    <br>
+    <input type="text" id="passwordRandom" min="4" max="8"  placeholder="Create a password" pattern="[A-Za-z0-9!@#$%^&*()_+=-]+">
+    <button type="submit" id="btnCreate">create</button>
+    <br><br><br>
+    <b>
+        <div id="divCreate" class="password-container">
+            The password that is formed: <span id="generated-password"></span>
+        </div>
+    </b>
+    
+    <script src="../dist/index.js"></script>
+</body>
+</html>
